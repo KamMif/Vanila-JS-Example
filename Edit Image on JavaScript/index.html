@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image editor</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+</head>
+<body>
+    <h2>Move slider to change Spacing and Blur. Selec color on change background-color. All this in: <span class="h1">JavaScript</span>
+    </h2>
+
+    <div class="controls">
+        <label for="spacing">Положение:</label>
+        <input type="range" name="spacing" min="10" max="200" value="10" data-sizing="px">
+
+        <label for="blur">Размытость:</label>
+        <input type="range" name="blur" min="0" max="25" value="10" data-size="px">
+
+        <label for="base">Цвет фона:</label>
+        <input type="color" name="base" value="#ffc600">
+    </div>
+
+    <img src="img/img.jpg" alt="">
+
+    <script src="script.js"></script>
+</body>
+</html>
